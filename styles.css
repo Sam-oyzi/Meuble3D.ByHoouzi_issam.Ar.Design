@@ -80,7 +80,29 @@ model-viewer {
   transition: transform 0.3s, opacity 0.3s;
 }
 
+.instagram-link {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff; /* Adjust color as needed */
+  font-size: 24px; /* Adjust font size as needed */
+  z-index: 9999; /* Ensure it's above other elements */
+}
 
+.instagram-logo {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  margin-right: 10px; /* Adjust spacing between logo and text */
+}
+
+.ar-design {
+  font-family: Arial, sans-serif; /* Use a suitable font */
+  font-weight: bold;
+  text-transform: uppercase;
+}
 .progress-bar {
   display: block;
   width: 33%;
@@ -112,7 +134,7 @@ model-viewer {
 }
 
 #ar-button {
-  background-image: url(https://cdn.glitch.global/0a338b96-94cc-4ed5-a7df-b3dfb809e801/ar_icon.png?v=1713282998585);
+  background-image: url("./assets/iar_icon.png");
   background-repeat: no-repeat;
   background-size: 20px 20px;
   background-position: 12px 50%;
